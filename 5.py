@@ -1,15 +1,15 @@
 # 5)Write a Python program to copy the contents of a file to another file. 
 
 
-file1= 'text.txt'
-file2= 'new.txt'
+file1='text.txt'
+file2='new.txt'
 
 try:
-    with open(file1, 'r') as source_file:
-        content = source_file.read()
+    with open(file1, 'r') as input_file:
+        content=input_file.read()
 
-    with open(file2, 'w') as destination_file:
-        destination_file.write(content)
+    with open(file2, 'w') as output_file:
+        output_file.write(content)
 
     print(f"Contents of '{file1}' copied to '{file2}'.")
 

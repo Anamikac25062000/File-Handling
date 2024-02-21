@@ -1,11 +1,11 @@
 # 4)Write a Python program to read a file line by line store it into a variable. 
 
 
-file_path = 'text.txt'
+file_path='text.txt'
 
 try:
     with open(file_path, 'r') as file:
-        var = file.readlines()
+        var=file.readlines()
 
     print(var)
     for line in var:
